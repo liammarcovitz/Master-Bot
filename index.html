@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot Control Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="boxes">
+    <!--send message box-->
+    <div id="sendMessage">
+        <h3>Send Message</h3>
+        <p>Message:</p>
+        <input id="messageInput1" type="text">
+
+        <p>Channel ID:</p>
+        <input id="channelIDInput1" type="text">
+
+        <br>
+        <br>
+        <button onclick="sendMessageToMain()" id="sendButtonInput1">Send</button>
+    </div>
+
+    <!--delete message box-->
+    <div id="deleteMessage">
+        <h3>Delete Message</h3>
+        <p>Message ID:</p>
+        <input id="messageInput2" type="text">
+
+        <p>Channel ID:</p>
+        <input id="channelIDInput2" type="text">
+
+        <br>
+        <br>
+        <button onclick="deleteMessageToMain()" id="sendButtonInput2">Delete</button>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

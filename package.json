@@ -1,0 +1,21 @@
+{
+  "name": "walter-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "M1nordragon",
+  "license": "ISC",
+  "dependencies": {
+    "agentkeepalive": "^4.1.4",
+    "animals-api": "^1.0.5",
+    "axios": "^0.24.0",
+    "fs": "*",
+    "images-scraper": "^6.4.0",
+    "meme-fetch": "^1.0.3",
+    "memes-js": "^1.0.8",
+    "request": "^2.88.2"
+  }
+}
