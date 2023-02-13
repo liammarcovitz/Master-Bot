@@ -1,5 +1,5 @@
 # Master-Bot
- A Discord bot that can be controlled by a human, with some basic functions.
+ A Discord bot that can be controlled by a human with a GUI, with some basic functions.
 
 ### Setup
 
