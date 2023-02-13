@@ -3,6 +3,10 @@ const { Client, Intents, Message, MessageEmbed, MessageAttachment } = require('d
 const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
 
+require('dotenv').config();
+
+const TOKEN = process.env.BOT_TOKEN;
+
 function createWindow() {
     // Create the browser window.
     const mainWindow = new BrowserWindow({
@@ -483,4 +487,4 @@ client.on('messageCreate', async (msg) => {
 })
 
 
-client.login('OTAzODI3NjM1MTQwOTg0OTM0.YXypFA.jif9_kbfGbq3VW3Q-92SqZaj8hg');
+client.login(TOKEN);
