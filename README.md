@@ -6,5 +6,9 @@
 1. Make sure you have Node JS/NPM installed.
 2. Clone or download the repository.
 3. Add your bot token after the <strong>"BOT_TOKEN:"</strong> in the <strong>".env"</strong> file.
-4. Open CMD in the root directory of the project and run "npm install discord.js" & "npm install electron".
-5. To run the bot, open CMD in the root directory of the project and run "npm start".
+4. Open CMD in the root directory of the project and run:
+ a. "npm install discord.js"
+ b. "npm install electron"
+ c. "npm install dotenv"
+5. Make sure all your Privileged Gateaway Intents are enabled in your application.
+6. To run the bot, open CMD in the root directory of the project and run "npm start".
